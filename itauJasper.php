@@ -1,19 +1,4 @@
-# JasperPHP - OpenBoleto 
-
-O OpenBoleto é uma biblioteca de código aberto para geração de boletos bancários, um meio de pagamento muito comum no Brasil. O foco é ser simples e ter uma arquitetura compatível com os recursos mais modernos do PHP.
-
-## Instalação
-### Composer
-Se você já conhece o **Composer** (o que é extremamente recomendado), simplesmente adicione a dependência abaixo à diretiva *"require"* seu **composer.json**:
-```
-"quilhasoft/jasperphp-openboleto": "dev-master"
-```
-
-###PSR-0 autoloader
-Hoje praticamente qualquer framework utiliza deste padrão, então você deve [baixar](https://github.com/quilhasoft/jasperphp-openboleto/archive/master.zip) o OpenBoleto, colocar em uma pasta específica (geralmente *lib* ou *vendor*) e procurar na documentação do seu framework para fazer com que o seu autoloader aponte o namespace **jasper-php-OpenBoleto** para a pasta **src** do jasperphp-OpenBoleto.
-
-## Gerando boletos
-```php
+<?php
 // para rodar este exemplo é necessario adicionar no seu composer
 // "quilhasoft/jasperphp":"dev-master"
 // "fredroo/openboleto":"dev-master"
@@ -191,30 +176,3 @@ $report->generate();                // gera o relatorio
 $report->out();                     // gera o pdf
 $pdf  = JasperPHP\Pdf::get();       // extrai o objeto pdf de dentro do report
 $pdf->Output('boleto.pdf',"I");  // metodo do TCPF para gerar saida para o browser
-
-```
-
-
-## Bancos suportados
-Atualmente o JasperPHP-OpenBoleto funciona com os bancos suportados pelo fredroo/openboleto:
-
-
-Toda contribuição é bem vinda. Se você deseja adaptar o JasperPHP-OpenBoleto a algum outro banco, fique à vontade para explorar o código, veja como é bastante simples integrar qualquer banco à biblioteca.
-
-## QuilhaSoft/JasperPHP
-Biblioteca que gera boletos em PDF atravez de layouts preconstruidos atravez do editor JasperSoft Studio, biblioteca contruida inteiramente em php sem a necessidade de adicionar um servidor JAVA
-Um exemplo de utilização esta no arquivo https://github.com/QuilhaSoft/JasperPHP-openboleto/blob/master/samples/itauJasper.php
-Amostra de pdf
-<img src="https://cloud.githubusercontent.com/assets/17881422/19604441/09b452f4-9794-11e6-836a-397b75947e51.png">
-Tela do editor
-<img src="https://cloud.githubusercontent.com/assets/17881422/19604460/195d01a6-9794-11e6-8d82-6aac6c8647ff.png">
-
-Para editar o layout do boleto instale o JasperSoft Studio e abra os arquivos .xlmr na pasta https://github.com/QuilhaSoft/JasperPHP-openboleto/tree/master/samples/app.jrxml/bol01Files
-## Homologação
-Os layouts produzidos nesse exemplo estão Homologados para os bancos Caixa, Itau, Bradesco.
-
-Para usar instale as duas bibliotecas
-
-## Licença
-
-* MIT License
