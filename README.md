@@ -209,7 +209,7 @@ Amostra de pdf
 Tela do editor
 <img src="https://cloud.githubusercontent.com/assets/17881422/19604460/195d01a6-9794-11e6-8d82-6aac6c8647ff.png">
 
-Para editar o layout do boleto instale o JasperSoft Studio e abra os arquivos .xlmr na pasta https://github.com/QuilhaSoft/JasperPHP-openboleto/tree/master/samples/app.jrxml/bol01Files
+Para editar o layout do boleto instale o JasperSoft Studio e abra os arquivos .xlmr na pasta https://github.com/QuilhaSoft/JasperPHP-OpenBoleto/tree/master/app.jrxml/bol01Files
 ## Homologação
 Os layouts produzidos nesse exemplo estão Homologados para os bancos Caixa, Itau, Bradesco.
 
