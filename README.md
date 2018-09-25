@@ -16,7 +16,7 @@ Hoje praticamente qualquer framework utiliza deste padrão, então você deve [b
 ```php
 // para rodar este exemplo é necessario adicionar no seu composer
 // "quilhasoft/jasperphp":"dev-master"
-// "fredroo/openboleto":"dev-master"
+// "openboleto/openboleto":"dev-master"
 
 
 //require '../autoloader.php';
@@ -196,7 +196,7 @@ $pdf->Output('boleto.pdf',"I");  // metodo do TCPF para gerar saida para o brows
 
 
 ## Bancos suportados
-Atualmente o JasperPHP-OpenBoleto funciona com os bancos suportados pelo fredroo/openboleto:
+Atualmente o JasperPHP-OpenBoleto funciona com os bancos suportados pelo openboleto/openboleto:
 
 
 Toda contribuição é bem vinda. Se você deseja adaptar o JasperPHP-OpenBoleto a algum outro banco, fique à vontade para explorar o código, veja como é bastante simples integrar qualquer banco à biblioteca.

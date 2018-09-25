@@ -1,7 +1,7 @@
 <?php
 // para rodar este exemplo é necessario adicionar no seu composer
 // "quilhasoft/jasperphp":"dev-master"
-// "fredroo/openboleto":"dev-master"
+// "openboleto/openboleto":"dev-master"
 
 
 //require '../autoloader.php';

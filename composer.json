@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">=7.0",
-        "fredroo/openboleto":"dev-master",
+        "openboleto/openboleto":"dev-master",
         "quilhasoft/jasperphp":"dev-master"
     }
 }
