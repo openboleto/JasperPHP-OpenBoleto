@@ -167,7 +167,8 @@ class Boleto
 // instancição do objeto :1 parametro: caminho do layout do boleto , 2 parametro :  array com os parametros para consulta no banco para localizar o boleto
 // pode ser passado como paramtro um array com os numeros dos boletos que serão impressos desde que criado sql dentro do arquivo jrxml(desativado nesse exemplo)
 
-$report =new JasperPHP\Report("bol01Files/boletoA4.jrxml",array());
+$report =new JasperPHP\Report("bol01Files/boletoCarne.jrxml",array());
+//$report =new JasperPHP\Report("bol01Files/boletoA4.jrxml",array());
     
 JasperPHP\Pdf::prepare($report);    // prepara o relatorio lendo o arquivo
 $report->dbData = array(new Boleto(1),new boleto(2)); // aqui voce pode construir seu array de boletos em qualquer estrutura incluindo 
