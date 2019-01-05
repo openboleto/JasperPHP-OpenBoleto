@@ -172,7 +172,7 @@ $report =new JasperPHP\Report("bol01Files/boletoA4.jrxml",array());
     
 JasperPHP\Pdf::prepare($report);    // prepara o relatorio lendo o arquivo
 $report->dbData = array(new Boleto(1),new boleto(2)); // aqui voce pode construir seu array de boletos em qualquer estrutura incluindo 
-$report->generate();                // gera o relatorio
+$report->generate(array());                // gera o relatorio
 
 $report->out();                     // gera o pdf
 $pdf  = JasperPHP\Pdf::get();       // extrai o objeto pdf de dentro do report
