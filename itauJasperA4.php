@@ -175,5 +175,5 @@ $report->dbData = array(new Boleto(1),new boleto(2)); // aqui voce pode construi
 $report->generate(array());                // gera o relatorio
 
 $report->out();                     // gera o pdf
-$pdf  = JasperPHP\Pdf::get();       // extrai o objeto pdf de dentro do report
+$pdf  = JasperPHP\PdfProcessor::get();       // extrai o objeto pdf de dentro do report
 $pdf->Output('boleto.pdf',"I");  // metodo do TCPF para gerar saida para o browser
