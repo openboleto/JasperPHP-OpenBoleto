@@ -170,7 +170,7 @@ class Boleto
 //$report =new JasperPHP\Report("bol01Files/boletoCarne.jrxml",array());
 $report =new JasperPHP\Report("bol01Files/boletoA4.jrxml",array());
     
-JasperPHP\Pdf::prepare($report);    // prepara o relatorio lendo o arquivo
+JasperPHP\Instructions::prepare($report);    // prepara o relatorio lendo o arquivo
 $report->dbData = array(new Boleto(1),new boleto(2)); // aqui voce pode construir seu array de boletos em qualquer estrutura incluindo 
 $report->generate(array());                // gera o relatorio
 
