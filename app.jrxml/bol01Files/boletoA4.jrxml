@@ -101,7 +101,7 @@
 				<textElement>
 					<font size="6"/>
 				</textElement>
-				<text><![CDATA[Endereço do Sacador avaista]]></text>
+				<text><![CDATA[Endereço do Sacador Avalista]]></text>
 			</staticText>
 			<line>
 				<reportElement x="1" y="109" width="555" height="1" uuid="0fefba30-1984-4374-85f8-248bd1021168">
