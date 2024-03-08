@@ -1,7 +1,8 @@
 # JasperPHP - OpenBoleto 
 
 Considere doar fundos para nos apoiar
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EE7CD4UZEL3A4&source=url)
+
+![qr-code-plus](https://github.com/openboleto/OpenCnabPHP/assets/17881422/dd59a24c-8560-489c-95b0-a1953484fc84)
 
 O OpenBoleto é uma biblioteca de código aberto para geração de boletos bancários, um meio de pagamento muito comum no Brasil. O foco é ser simples e ter uma arquitetura compatível com os recursos mais modernos do PHP.
 
